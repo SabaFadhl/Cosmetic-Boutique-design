@@ -121,9 +121,9 @@ a:focus {
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 }
 
-.header_section {
+/* .header_section {
     padding: 15px 0;
-}
+} */
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -260,7 +260,7 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 90px 0 75px 0;
-  margin-top: 10em;
+  margin-top:7em;
 }
 
 .slider_section .row {
@@ -1042,6 +1042,7 @@ div.form_sub .field input[type="email"], div.form_sub .field input[type="email"]
 
 .form_sub {
     position: relative;
+    width: 75%;
 }
 
 .form_sub input[type="email"] + input[type="submit"] {
@@ -1134,4 +1135,7 @@ form input[type="submit"]:focus {
 #navbarSupportedContent
 {
   background-color: white;
+}
+.full{
+  align-self: center;
 }
